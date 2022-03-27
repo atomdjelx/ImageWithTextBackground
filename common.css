@@ -1,0 +1,24 @@
+main div.main_wrap{
+ background-color: #111;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+main div.main_wrap p{
+  background-image: url(picture.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  -webkit-text-fill-color: rgba(255,255,255,0);
+  -webkit-background-clip: text;
+/*  -webkit-filter: grayscale(100%);*/ /*for grayscale*/
+  font-size: 15px; /*15px;*/
+  line-height: .8;
+  max-height: 100vh;
+  word-break: break-all;
+  font-family: poppins;
+}
